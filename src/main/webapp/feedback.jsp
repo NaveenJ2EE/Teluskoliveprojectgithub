@@ -517,7 +517,7 @@
         </section>
         <section class="copyright">
             <div class="container">
-                &copy; Copyright 2016. <b>Telusko Learnings</b> &nbsp; | &nbsp; All rights reserved
+                &copy; Copyright 201	6. <b>Telusko Learnings</b> &nbsp; | &nbsp; All rights reserved
             </div>
         </section>
     </footer>
@@ -525,7 +525,7 @@
     <!-- JavaScript Files -->
     <!-- <script src="plugin/jquery-1.10.2.min.js"></script>
     <script src="plugin/bootstrap/js/bootstrap.min.js"></script> -->
-    <script src="plugin/jquery.cuteTime.min.js"></script>
+    <script src="js/jquery.cuteTime.min.js"></script>
     <script src="js/script.js"></script>
     <!-- / JavaScript Files -->
 </body>
