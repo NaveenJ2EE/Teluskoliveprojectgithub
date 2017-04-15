@@ -206,33 +206,64 @@
             
             <p class="header text-center" style="color: #24E214;">Keep in <strong>Touch</strong></p>
             <p class="text-center">Your Feedback Matters</p><br>
+            
+            
              <form action="role">
                                 <div class="row">
                                     <div class="col-md-3">
                                    
-                                        <div class="form-group">
+                                       <!--  <div class="form-group">
                                        
                                            
                                             <input type="text" class="form-control input-lg" id="name" placeholder="enter your name" name="Name"/>
-                                        </div>
-                                        <div class="form-group">
+                                        </div> -->
+                                        
+                                        
+                                         <div class="form-group">
+                                            <span class="glyphicon glyphicon-user" aria-hidden="true" ></span>
+                                              <span class="sr-only"></span>
+                                               <label for="inputName">Name</label>
+                                              <input type="Name" class="form-control" id="inputNAME" placeholder="Please enter your full name">
+                                             </div>
+                                             
+                                             
+                                            <!--  <div class="form-group"> 
                                             
                                             <input type="email" class="form-control input-lg" id="mail" placeholder="enter your email address"  name="Email" />
-                                        </div>
-                                        <div class="form-group">
-                                          
-                                            <input type="text" class="form-control input-lg" id="institute" placeholder="enter your institute name" name="Institute"  />
-                                        </div>
+                                        </div> -->
+                                        
+                                        
+                                          <div class="form-group">
+                                           <span class="glyphicon glyphicon-envelope" aria-hidden="true" ></span>
+                                           <span class="sr-only"></span>
+                                          <label for="inputEmail">Email</label>
+                                           <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                          </div>
+                                        
                                         <div class="form-group">
                                            
+                                            <span class="glyphicon glyphicon-education"></span>
+                                            <span class="sr-only"></span>
+                                          <label for="inputEmail">Institute</label>
+                                            <input type="text" class="form-control input-lg" id="institute" placeholder="Enter your institute name" name="Institute"  />
+                                        </div>
+                                        
+                                        
+                                        
+                                        <div class="form-group">
+                                           <span class="glyphicon glyphicon-calendar"></span>
+                                           <span class="sr-only"></span>
+                                          <label for="inputEmail">Year</label>
                                             <input type="text" class="form-control input-lg" id="year" placeholder="Year" onkeypress="javascript:return isNumber (event)" name="Year" />
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="form-group">
-                                          
-                                            <textarea class="form-control" id="messege" placeholder="Enter your message" name="Msg"></textarea>
-                                        </div>
+                                       <div class="form-group">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true" ></span>
+            <span class="sr-only"></span>
+            <label for="inputMessage">Enter Your message</label>
+                <textarea class="form-control" rows="5" id="message" placeholder="Enter your message"></textarea>
+        </div>
                                     </div>
                               
                             <div class="col-md-6 right">
@@ -241,20 +272,29 @@
 							</div>
 							<div class="col-xs-6">
 								<div class="stars">
+								
 									<input type="radio" name="star" class="star-1" id="star-1"
 										onclick="myFunction(this.value)" value="1" /> <label
-										class="star-1" for="star-1">1</label> <input type="radio"
+										class="star-1" for="star-1">1</label>
+										
+										 <input type="radio"
 										name="star" class="star-2" id="star-2"
-										onclick="myFunction(this.value)" value="2" /> <label
+										onclick="myFunction(this.value)" value="2" />
+										
+										 <label
 										class="star-2" for="star-2">2</label> <input type="radio"
 										name="star" class="star-3" id="star-3"
-										onclick="myFunction(this.value)" value="3" /> <label
+										
+										onclick="myFunction(this.value)" value="3" />
+										 <label
 										class="star-3" for="star-3">3</label> <input type="radio"
 										name="star" class="star-4" id="star-4"
-										onclick="myFunction(this.value)" value="4" /> <label
+										onclick="myFunction(this.value)" value="4" /> 
+										<label
 										class="star-4" for="star-4">4</label> <input type="radio"
 										name="star" class="star-5" id="star-5"
-										onclick="myFunction(this.value)" value="5" /> <label
+										onclick="myFunction(this.value)" value="5" /> 
+										<label
 										class="star-5" for="star-5">5</label> <span></span>
 								</div>
 							</div>
@@ -372,6 +412,10 @@
         </div>        
     </section>
      </form>
+     
+     
+     
+     
    <footer class="main bg-dark-img">
         <section class="widgets">
         <div class="container">
