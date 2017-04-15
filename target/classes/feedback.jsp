@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/animate.min.html" />
+	
+	<script type="text/javascript" src="js/star.js"></script>
+    <link rel="stylesheet" href="css/star.css">
 	<!-- / CSS Files -->
 	
   
@@ -125,7 +128,7 @@
 </script>
 
 </head>
-<body>
+<body style="overflow-x: hidden">
     <header class="main">
         <div class="container">
             <nav class="navbar" role="navigation">
@@ -271,32 +274,41 @@
 								<label>Knowledge</label>
 							</div>
 							<div class="col-xs-6">
-								<div class="stars">
 								
-									<input type="radio" name="star" class="star-1" id="star-1"
-										onclick="myFunction(this.value)" value="1" /> <label
-										class="star-1" for="star-1">1</label>
-										
-										 <input type="radio"
-										name="star" class="star-2" id="star-2"
-										onclick="myFunction(this.value)" value="2" />
-										
-										 <label
-										class="star-2" for="star-2">2</label> <input type="radio"
-										name="star" class="star-3" id="star-3"
-										
-										onclick="myFunction(this.value)" value="3" />
-										 <label
-										class="star-3" for="star-3">3</label> <input type="radio"
-										name="star" class="star-4" id="star-4"
-										onclick="myFunction(this.value)" value="4" /> 
-										<label
-										class="star-4" for="star-4">4</label> <input type="radio"
-										name="star" class="star-5" id="star-5"
-										onclick="myFunction(this.value)" value="5" /> 
-										<label
-										class="star-5" for="star-5">5</label> <span></span>
-								</div>
+								
+								
+								<div class="container">
+	
+                                     <div class="row lead">
+                                      <div id="hearts" class="starrr"></div>
+                                      <!--  You gave a rating of <span id="count">0</span> star(s) -->
+	                                 </div>
+    
+   
+                                </div>
+	                               
+	                               <!--  <label for="star-1" class="starrr"></label>
+                                    <input id="star-1" type="radio" value="1" name="star" onclick="myFunction(this.value)" class="rating rating-loading" data-min="0" data-max="5" data-step="1">
+									
+									<label for="star-2" class="starr"></label>
+                                    <input id="star-2" type="radio" value="2" name="star" onclick="myFunction(this.value)" class="rating rating-loading" data-min="0" data-max="5" data-step="1">
+									
+									
+									<label for="star-3" class="starrr"></label>
+                                    <input id="star-3" type="radio" value="3" name="star" onclick="myFunction(this.value)" class="rating rating-loading" data-min="0" data-max="5" data-step="1">
+									
+									
+									<label for="star-4" class="starrr"></label>
+                                    <input id="star-4" type="radio" value="4" name="star" onclick="myFunction(this.value)" class="rating rating-loading" data-min="0" data-max="5" data-step="1">
+									
+									
+									
+									<label for="star-5" class="starrr"></label>
+                                    <input id="star-5" type="radio" value="5" name="star" onclick="myFunction(this.value)" class="rating rating-loading" data-min="0" data-max="5" data-step="1">
+									 -->
+									
+									   <span></span>
+								
 							</div>
 						</div>
 						<hr class="invisible" />
@@ -305,7 +317,19 @@
 								<label>Innovation</label>
 							</div>
 							<div class="col-xs-6">
-								<div class="stars1">
+							
+							
+							<div class="container">
+	
+                                     <div class="row lead">
+                                      <div id="hearts" class="starrr"></div>
+                                      <!--  You gave a rating of <span id="count">0</span> star(s) -->
+	                                 </div>
+    
+   
+                            </div>
+							
+								<!-- <div class="stars1">
 									<input type="radio" name="star1" class="star1-1" id="star1-1"
 										onclick="myFunction1(this.value)" value="1" /> <label
 										class="star1-1" for="star1-1">1</label> <input type="radio"
@@ -321,7 +345,7 @@
 										name="star1" class="star1-5" id="star1-5"
 										onclick="myFunction1(this.value)" value="5" /> <label
 										class="star1-5" for="star1-5">5</label> <span></span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<hr class="invisible" />
@@ -330,7 +354,16 @@
 								<label>Interaction</label>
 							</div>
 							<div class="col-xs-6">
-								<div class="stars2">
+							<div class="container">
+	
+                                     <div class="row lead">
+                                      <div id="hearts" class="starrr"></div>
+                                      <!--  You gave a rating of <span id="count">0</span> star(s) -->
+	                                 </div>
+    
+   
+                            </div>
+								<!-- <div class="stars2">
 									<input type="radio" name="star2" class="star2-1" id="star2-1"
 										onclick="myFunction2(this.value)" value="1" /> <label
 										class="star2-1" for="star2-1">1</label> <input type="radio"
@@ -346,7 +379,7 @@
 										name="star2" class="star2-5" id="star2-5"
 										onclick="myFunction2(this.value)" value="5" /> <label
 										class="star2-5" for="star2-5">5</label> <span></span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<hr class="invisible" />
@@ -355,7 +388,17 @@
 								<label class="star-1" for="star-1">Communication</label>
 							</div>
 							<div class="col-xs-6">
-								<div class="stars3">
+							
+							<div class="container">
+	
+                                     <div class="row lead">
+                                      <div id="hearts" class="starrr"></div>
+                                      <!--  You gave a rating of <span id="count">0</span> star(s) -->
+	                                 </div>
+    
+   
+                                </div>
+								<!-- <div class="stars3">
 									<input type="radio" name="star3" class="star3-1" id="star3-1"
 										onclick="myFunction3(this.value)" value="1" /> <label
 										class="star3-1" for="star3-1">1</label> <input type="radio"
@@ -371,7 +414,7 @@
 										name="star3" class="star3-5" id="star3-5"
 										onclick="myFunction3(this.value)" value="5" /> <label
 										class="star3-5" for="star3-5">5</label> <span></span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<hr class="invisible" />
@@ -380,7 +423,18 @@
 								<label>Over All</label>
 							</div>
 							<div class="col-xs-6">
-								<div class="stars4">
+							
+							<div class="container">
+	
+                                     <div class="row lead">
+                                      <div id="hearts" class="starrr"></div>
+                                      <!--  You gave a rating of <span id="count">0</span> star(s) -->
+	                                 </div>
+    
+   
+                            </div>
+							
+								<!-- <div class="stars4">
 									<input type="radio" name="star4" class="star4-1" id="star4-1"
 										onclick="myFunction4(this.value)" value="1" /> <label
 										class="star4-1" for="star4-1">1</label> <input type="radio"
@@ -396,7 +450,7 @@
 										name="star4" class="star4-5" id="star4-5"
 										onclick="myFunction4(this.value)" value="5" /> <label
 										class="star4-5" for="star4-5">5</label> <span></span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						            <hr class="invisible" /> 
